@@ -45,8 +45,3 @@ if __name__ == '__main__':
     print(port)
 
     server.serve_forever()
-
-    # Clean up
-    server.shutdown()
-    server.socket.close()
-    
